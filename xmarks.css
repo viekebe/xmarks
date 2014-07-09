@@ -1,0 +1,276 @@
+/*
+You need to install the Font-Awsome webfont localy for this stylesheet to work. http://fontawesome.io/ 
+*/
+
+/*
+Stylesheet by Randy Verschueren - Viesign.com 
+*/
+
+#global_nav {
+    background: #3488b7;
+    padding: 15px 0;
+}
+
+#logo img {
+    display: none;
+}
+
+#logo:before {
+    color: #fff;
+    content: 'My Xmarks';
+    font-size: 39px;
+}
+
+#primary_links {
+    left: 8px;
+    right: inherit;
+    top: 22px;
+}
+
+#primary_links a {
+    text-decoration: none;
+}
+
+#primary_links a:hover {
+    color: #111;
+}
+
+.fm-watermark {
+    background: none;
+}
+
+.x-tree-root-ct.x-tree-lines {
+    margin-left: 20px;
+}
+
+.x-btn-text-icon .x-btn-with-menu .x-btn-center em {
+    background-image: none;
+}
+
+.x-btn-text-icon .x-btn-with-menu .x-btn-center em:after {
+    color: #fff;
+    content: '';
+    font-family: FontAwesome;
+    font-size: 90%;
+    padding-left: 5px;
+}
+
+.x-layer.x-menu {
+    top: 135px;
+}
+
+.x-layout-panel {
+    height: auto;
+}
+
+.x-menu {
+    background: #206da1;
+    border: none;
+}
+
+.x-menu-item {
+    color: #fff;
+}
+
+.x-menu-item img {
+    /*display: none;*/
+}
+
+.x-menu-item#ext-gen690:before {
+    content: '';
+}
+
+.x-menu-item-active {
+    background: none;
+    border: none;
+    padding: 5px;
+}
+
+.x-menu-item-active .x-menu-item {
+    color: #111;
+}
+
+.x-menu-item:before {
+    color: #fff;
+    font-family: FontAwesome;
+    font-size: 110%;
+    padding-right: 5px;
+}
+
+.x-menu-list {
+    border: none;
+}
+
+.x-menu-list-item {
+    font: normal 12px verdana;
+}
+
+.x-toolbar {
+    background: #206da1;
+    border-bottom: none;
+    border-top: none;
+}
+
+.x-toolbar .x-btn-over .x-btn-center, .x-toolbar .x-btn-over .x-btn-left, .x-toolbar .x-btn-over .x-btn-right, .x-toolbar .x-btn-menu-active .x-btn-center,.x-toolbar .x-btn-menu-active .x-btn-left,.x-toolbar .x-btn-menu-active .x-btn-right {
+    background: none;
+}
+
+.x-toolbar .ytb-sep {
+    display: none;
+}
+
+.x-toolbar button {
+    background-image: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.x-toolbar button:before {
+    font-family: FontAwesome;
+    padding-right: 5px;
+}
+
+.x-toolbar button:hover {
+    color: #fff;
+    margin-top: -10px;
+}
+
+button#ext-gen103:before {
+    content: '';
+}
+
+button#ext-gen114:before {
+    content: '';
+}
+
+button#ext-gen36:before {
+    content: '';
+}
+
+button#ext-gen45:before {
+    content: '';
+}
+
+button#ext-gen56:before {
+    content: '';
+}
+
+button#ext-gen66:before {
+    content: '';
+}
+
+button#ext-gen75:before {
+    content: '';
+}
+
+button#ext-gen84:before {
+    content: '';
+}
+
+button#ext-gen94:before {
+    content: '';
+}
+
+table#ext-gen34 {
+    padding: 8px;
+}
+
+td.x-item-disabled button:hover {
+    color: #fff;
+    margin-top: 0px;
+}
+
+.x-tree-node {
+    font: normal 16px Helvetica;
+    line-height: 1.8em;
+}
+
+.x-tree-node-leaf a {
+    padding: 6px;
+    border-radius: 50px;
+    transition: All 0.2s ease-in-out;
+    -webkit-transition: All 0.2s ease-in-out;
+    -moz-transition: All 0.2s ease-in-out;
+    -o-transition: All 0.2s ease-in-out;
+}
+
+.x-tree-node-leaf a:hover {
+    background: #3488b7;
+    transition: All 0.5s ease-in-out;
+    -webkit-transition: All 0.2s ease-in-out;
+    -moz-transition: All 0.2s ease-in-out;
+    -o-transition: All 0.2s ease-in-out;
+}
+
+.x-tree-node-leaf a:hover span {
+    color: #fff;
+}
+
+#tree .x-tree-node-leaf .x-tree-node-icon,.x-tree-lines .x-tree-elbow {
+    display: none;
+}
+
+.x-tree-lines .x-tree-elbow-line,.x-tree-lines .x-tree-elbow-end {
+    background: none;
+}
+
+.x-tree-node-icon {
+    background: none;
+    display: none;
+}
+
+.x-tree-node-expanded:before {
+    font-family: FontAwesome;
+    content: '';
+    color: #206da1;
+    font-size: 140%;
+    vertical-align: bottom;
+    padding-right: 8px;
+}
+
+.x-tree-node-collapsed:before {
+    font-family: FontAwesome;
+    content: '';
+    color: #206da1;
+    font-size: 140%;
+    vertical-align: bottom;
+    padding-right: 8px;
+}
+
+.x-tree-node-el.folder.fm-tree-node-collapsed-locked:before {
+    font-family: FontAwesome;
+    content: '';
+    color: #206da1;
+    font-size: 140%;
+    vertical-align: bottom;
+    padding-right: 8px;
+}
+
+.x-tree-node-el.folder.fm-tree-node-expanded-locked:before {
+    font-family: FontAwesome;
+    content: '';
+    color: #206da1;
+    font-size: 140%;
+    vertical-align: bottom;
+    padding-right: 8px;
+}
+
+.x-tree-node .x-tree-selected a span {
+    background: #fff;
+    color: #111
+;
+}
+
+.x-tree-node-indent {
+    display: none;
+}
+
+.x-tree-lines .x-tree-elbow-plus,.x-tree-lines .x-tree-elbow-end-plus {
+    background-image: url(http://i.imgur.com/2k1djNj.png);
+    margin-top: 3px;
+}
+
+.x-tree-lines .x-tree-elbow-minus,.x-tree-lines .x-tree-elbow-end-minus {
+    background-image: url(http://i.imgur.com/pXt26mG.png);
+}
+
